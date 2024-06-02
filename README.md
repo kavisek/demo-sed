@@ -1,14 +1,11 @@
-# Template Python App
+# Demo Sed
 
-{description}
+This is a simple demo of the `sed` command.
 
-## Setup
+## Tutorial 
+
+### 1. Replace a string in a file
 
 ```bash
-cd app
-poetry install
+sed -i 's/old_string/new_string/g' file.txt
 ```
-
-## References
-
-{references}

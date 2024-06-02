@@ -12,7 +12,6 @@ sed 's/dragon/unicorn/' story.txt > story2.txt
 sed 's/dragon/unicorn/g' story.txt > story2.txt
 
 
-
 # Replace the word original with replacement in the stdin text.
 # The output is printed to stdout.
 echo "original text" | sed 's/original/replacement/'
